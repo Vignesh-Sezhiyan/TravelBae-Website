@@ -1,0 +1,105 @@
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #32373d;
+    color: #ffffff;
+}
+.heading {
+    color: rgb(255, 255, 255);
+font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+}
+
+li .active {
+    color: rgba(246, 165, 59, 0.9);
+    font-weight: 500;
+    background-color: rgb(104, 165, 231);
+  padding: 8px;
+  border-radius: 8px;
+  color: black;
+}
+.navbar-toggler{
+    color: rgb(186, 179, 179);
+    border: 2px solid gray;
+
+}
+.fa-solid{
+    color: rgb(251, 255, 255);
+    font-size: 22px;
+}
+.fa-brands{
+    font-size: 50px;
+    color: rgb(23, 239, 37);
+ 
+}
+.Home-nav{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.home-div{
+ background-image: url('../components/assets/k1.jpg');
+ background-size: cover;
+ height: 180px;
+}
+.Goa-div{
+        /* background-color: rgb(216, 216, 42); */
+        background-image: url('../components/assets/goa.jpeg');
+        background-size: cover;
+            height: 180px;
+}
+.munnar-div {
+    /* background-color: rgb(216, 216, 42); */
+    background-image: url('../components/assets/munnar.jpeg');
+    background-size: cover;
+    height: 180px;
+}
+.ooty-div {
+    /* background-color: rgb(216, 216, 42); */
+    background-image: url('../components/assets/ooty.jpeg');
+    background-size: cover;
+    height: 180px;
+}
+.taj-div {
+    background-image: url('../components/assets/taj2.jpeg');
+    background-size: cover;
+    height: 180px;
+}
+.varanasi-div {
+    background-image: url('../components/assets/varanasi.jpeg');
+    background-size: cover;
+    height: 180px;
+}
+
+p{
+font-family: 'Lato', sans-serif;
+}
+#contact {
+/* background-image: url('../components/assets/k1.jpg'); */
+background-color: #32373d;
+background-size: cover;
+    align-items: center;
+    border-radius: 12px;
+}
+
+textarea,
+input {
+   width: 300px;
+    border-radius: 5px;
+    border:none;
+    
+
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
